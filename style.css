@@ -32,6 +32,8 @@ h1 {
     font-size: 3rem;
     font-weight: bold;
     line-height: 72px;
+    cursor: pointer;
+    transition: 1.9s;
 }
 @media (max-width: 1020px){
     .Box-logo{
@@ -56,6 +58,10 @@ h1 {
     font-weight: 200;
     font-size: 1.5rem;
     cursor: pointer;
+    transition: 0.7s;
+}
+.Item-menu:hover{
+    transform: scale(1.090);
 }
 .Container-main{
     height: 80vh;
@@ -87,6 +93,7 @@ h1 {
     font-size: 3rem;
     text-align: center;
     font-weight: bold;
+    cursor: pointer;
 }
 .Container-action{
     height: 100vh;
@@ -134,6 +141,14 @@ h1 {
     font-size: 1rem;
     font-weight: 700;
     line-height: 36px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.Item-main:hover{
+    transform: scale(1.010);
+    border: 3px solid #8680f3;
+    box-shadow: 0px 4px 4px rgb(100 10 210 / 50%);
+    color: #6C63FF;
 }
 .Text-action{
     width: 50%;
@@ -193,6 +208,13 @@ h1 {
     text-align: center;
     line-height: 54px;
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    cursor: pointer;
+    transition: 0.8s;
+}
+.Btn-submit:hover{
+    transform: scale(1.010);
+    box-shadow: 0px 4px 4px rgb(100 10 210 / 50%);
+    color: white;
 }
 @media (max-width: 520px){
     .Box-action {
